@@ -10,7 +10,6 @@
 
     <TextView
 
-        android:text="Hello Alex!"
         android:background="@drawable/images"
         android:textColor="#000000"
         android:textStyle="bold"
@@ -30,6 +29,8 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
     <Button
+        style="@style/maincardbutton"
+        android:onClick="addItem"
         android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="0dp"
@@ -38,6 +39,7 @@
         android:text="Bars"/>
 
     <Button
+        style="@style/maincardbutton"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
@@ -45,6 +47,7 @@
         android:text="Restaurants"/>
 
     <Button
+        style="@style/maincardbutton"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
@@ -61,6 +64,7 @@
         android:orientation="vertical">
 
         <Button
+            style="@style/maincardbutton"
             android:id="@+id/button"
             android:layout_width="match_parent"
             android:layout_height="0dp"
@@ -69,6 +73,7 @@
             android:text="Nice Places"/>
 
         <Button
+            style="@style/maincardbutton"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
@@ -76,6 +81,7 @@
             android:text="Adresses"/>
 
         <Button
+            style="@style/maincardbutton"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
