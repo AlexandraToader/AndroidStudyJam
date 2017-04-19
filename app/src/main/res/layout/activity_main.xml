@@ -64,13 +64,13 @@
         android:orientation="vertical">
 
         <Button
-            style="@style/maincardbutton"
             android:id="@+id/button"
+            style="@style/maincardbutton"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:textAllCaps="false"
-            android:text="Nice Places"/>
+            android:text="Nice Places"
+            android:textAllCaps="false" />
 
         <Button
             style="@style/maincardbutton"
